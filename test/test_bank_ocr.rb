@@ -7,6 +7,6 @@ class TestBankOcr < Minitest::Test
   end
 
   def test_fixture_loading
-    assert_match /123456789\n\z/, fixture("use_case_1")
+    assert_match /123456789\n\z/, fixture("use_case_1.txt")
   end
 end
